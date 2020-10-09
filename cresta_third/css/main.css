@@ -44,6 +44,8 @@
 }
 
 .flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -56,3 +58,4 @@
   width: 520px;
   height: 531px;
 }
+/*# sourceMappingURL=main.css.map */
