@@ -2,24 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@media screen and (min-width: 1440px) {
-  * {
-    max-width: 1440px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-  * {
-    max-width: 768px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  * {
-    max-width: 375px;
-  }
-}
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
