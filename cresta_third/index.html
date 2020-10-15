@@ -15,14 +15,23 @@
 </head>
 
 <body>
-    <di class="wrapper">
-
-        <header>
+    <div class="wrapper">
+        <div class="header">
             <div class="header__left">
-                <div class="header__logo">
-                    <img src="./img/PC/site-logo.jpg" alt="logo">
+                <img src="./img/PC/site-logo.jpg" alt="logo" class="header__logo">
+                <div class="header__container">
+                    <h4 class="header__top">
+                        デザインで人を笑顔にする会社
+                    </h4>
+                    <h4 class="header__company">
+                        DIGSMILE INC.
+                    </h4>
+                    <h1 class="header__main">
+                        DESIGN<br>
+                        FOR<br>
+                        SMILE.<br>
+                    </h1>
                 </div>
-
             </div>
 
             <div class="header__right">
@@ -30,28 +39,7 @@
                     <span class="header__icon fas fa-bars"></span>MENU
                 </nav>
             </div>
-
-            <div class="header__container">
-                <h4 class="header__top">
-                    デザインで人を笑顔にする会社
-                </h4>
-                <h4 class="header__company">
-                    DIGSMILE INC.
-                </h4>
-                <h1 class="header__main">
-                    DESIGN
-                </h1>
-                <h1 class="header__main">
-                    FOR
-                </h1>
-                <h1 class="header__main">
-                    SMILE.
-                </h1>
-            </div>
-
-        </header>
-
-
+        </div>
 
         <div class="main">
 
@@ -70,42 +58,44 @@
                 </section>
             </div>
 
-            <div class="flexbox">
+            <article>
                 <section>
-                    <div class="flexbox__works">
+                    <div class="flexbox">
+                        <div class="flexbox__works">
 
-                        <h2 class="flexbox__works__top">
-                            WORKS
-                        </h2>
-                        <img src="./img/PC/works-img.jpg" alt="works" class="flexbox__works__img">
-                        <p class="flexbox__works__main">
-                            DIGSMILEの制作実績を紹介します。
-                        </p>
-                        <a href="#" class="flexbox__works__btn">READ MORE</a>
-                </section>
-
-
-                <section>
-                    <div class="flexbox__coluture">
-                        <section>
-                            <h2 class="flexbox__coluture__top">
-                                CULTURE
+                            <h2 class="flexbox__works__top">
+                                WORKS
                             </h2>
-                            <img src="./img/PC/culture-img.jpg" alt="" class="flexbox__coluture__img">
-                            <p class="flexbox__coluture__main">
-                                DIGSMILEの社内文化について紹介します。
+                            <img src="./img/PC/works-img.jpg" alt="works" class="flexbox__works__img">
+                            <p class="flexbox__works__main">
+                                DIGSMILEの制作実績を紹介します。
                             </p>
-                            <a href="#" class="flexbox__coluture__btn">READ MORE</a>
-                        </section>
-                    </div>
+                            <a href="#" class="flexbox__works__btn">READ MORE</a>
+                        </div>
+                        <div class="flexbox__coluture">
+                            <section>
+                                <h2 class="flexbox__coluture__top">
+                                    CULTURE
+                                </h2>
+                                <img src="./img/PC/culture-img.jpg" alt="" class="flexbox__coluture__img">
+                                <p class="flexbox__coluture__main">
+                                    DIGSMILEの社内文化について紹介します。
+                                </p>
+                                <a href="#" class="flexbox__coluture__btn">READ MORE</a>
+                            </section>
+                        </div>
                 </section>
-            </div>
         </div>
+        </article>
+
 
 
         <div class="topic">
-            <h2 class="topic__top">LATEST TOPICS</h2>
-            <div class="topic__container">
+            <div class="topic__left">
+                <h2>LATEST TOPICS</h2>
+            </div>
+
+            <div class="topic__right">
                 <article>
                     <div class="topic__column">
                         <p class="topic__date">
@@ -138,6 +128,7 @@
                 </article>
                 <a href="#" class="topic__btn">READ MORE</a>
             </div>
+
         </div>
 
         <section>
@@ -160,7 +151,7 @@
             <p>©2018 DIGSMILE INC.</p>
         </footer>
 
-        </div>
+    </div>
 </body>
 
 </html>

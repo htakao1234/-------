@@ -1,5 +1,3 @@
-
-
 .about{
 
     background:url("../img/PC/town.jpg");
@@ -51,82 +49,90 @@
 }
 
 .flexbox{
-    display: flex;
+    display: inline-flex;
+    justify-content: center;
     background-image: url("../img/PC/bg_gray.jpg");
     // width:1440px;
-        width:100%;
+    width:100%;
     height:771px;
     margin-top:-100px;
   
-}
-.flexbox__works{
-    width: 520px;
-    height: 531px;
-    margin:180px 0 0 170px ;
 
-    &__top{
-    margin:0 30px 0 0;
-    letter-spacing: 2px;
-    font-family: Montserrat;
-    font-size:32px;
-    }
-
-    &__main{
-        font-family: YuGothic;
-        margin:27px 0 17px 0;
-    }
-    &__btn{
-    font-weight:bold;
-    letter-spacing: 1px;
-    background-color: black;
-    color: white;
-    font-family: Montserrat Medium;
-    font-size:12px;
-    line-height:15px;
-    padding:9px 48px 11px 41px;
-    }
-}
-.flexbox__coluture{
-    width: 520px;
-    height: 531px;
-    margin:180px 0 0 60px;
+    &__works{
+        flex-basis: 580px;
+        width: 520px;
+        height: 531px;
+        margin:180px 0 0 0;
         &__top{
-    margin:0 30px 0 0;
-    letter-spacing: 2px;
-    font-family: Montserrat;
-    font-size:32px;
-    }
+        margin:0 30px 0 0;
+        letter-spacing: 2px;
+        font-family: Montserrat;
+        font-size:32px;
+        }
 
-    &__main{
-        font-family: YuGothic;
-        margin:27px 0 17px 0;
+        &__main{
+            font-family: YuGothic;
+            margin:27px 0 17px 0;
+        }
+        &__btn{
+        font-weight:bold;
+        letter-spacing: 1px;
+        background-color: black;
+        color: white;
+        font-family: Montserrat Medium;
+        font-size:12px;
+        line-height:15px;
+        padding:9px 48px 11px 41px;
+        }
     }
-    &__btn{
-    font-weight:bold;
-    letter-spacing: 1px;
-    background-color: black;
-    color: white;
-    font-family: Montserrat Medium;
-    font-size:12px;
-    line-height:15px;
-    padding:9px 48px 11px 41px;
+    &__coluture{
+        width: 520px;
+        height: 531px;
+        margin:180px 0 0 0;
+            &__top{
+        margin:0 30px 0 0;
+        letter-spacing: 2px;
+        font-family: Montserrat;
+        font-size:32px;
+        }
+
+        &__main{
+            font-family: YuGothic;
+            margin:27px 0 17px 0;
+        }
+        &__btn{
+        font-weight:bold;
+        letter-spacing: 1px;
+        background-color: black;
+        color: white;
+        font-family: Montserrat Medium;
+        font-size:12px;
+        line-height:15px;
+        padding:9px 48px 11px 41px;
+        }
     }
 }
 .topic{
-    // width:1100px;
     width:100%;
-    height:348px;
-    margin:60px auto;
+    height:468px;
+    display:inline-flex;
+    justify-content: center;
 
-    &__container{
-        margin-right:60px;
-        width:650px
-    }
-    &__top{
-        margin:0 30px 0 0;
-        letter-spacing: 4px;
+    &__left{
+        padding-top:60px;
+        letter-spacing: 2px;
         font-family: Montserrat;
         font-size:32px;
+        width:287px;
+        margin:0;
+        flex-basis: 290px;
+    }
+
+    &__right{
+        padding-top:60px;
+        padding-left:117px;
+        margin:80px 0 0 0;
+        width:700px;
     }
 
     &__date{
@@ -168,13 +174,14 @@
     width:100%;
     height:570px;
     display:inline-flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding:120px 0 0 0 ;
+    justify-content: center;
 
     &__left{
-        // padding:132px 80px 30px 170px;
-        text-align: initial;
+        width: 530px;
+        margin:0;
+        padding-top:60px;
+        flex-basis: 530px;
+
     }
     &__top{
         margin-top:60px;
@@ -190,10 +197,9 @@
         line-height: 32px;
     }
     &__right{
-        // padding-top:60px;
-        // // width: 580px;
-        // width: 100%;
-        // height:390px;
+        padding-top:60px;
+        width:580px;
+        margin:0;
     }
     &__btn{
     font-weight:bold;
