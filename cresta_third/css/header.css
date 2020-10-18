@@ -89,6 +89,7 @@
   height: 1px;
   left: -20px;
   display: block;
+  background: white;
   position: absolute;
   -webkit-transition: top .5s ease, -webkit-transform .6s ease-in-out;
   transition: top .5s ease, -webkit-transform .6s ease-in-out;
