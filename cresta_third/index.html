@@ -16,9 +16,27 @@
 
 <body>
     <div class="wrapper">
-        <div class="header">
+        <img src="./img/PC/site-logo.jpg" alt="logo" class="header__logo">
+        <nav class="header__menu white">
+            <p><span class="backwhite"></span><span class="backwhite"></span><span class="backwhite"></span>MENU</p>
+        </nav>
+
+        <div id="gloval-nav">
+            <div class="gloval-nav__image"></div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html"><i class="fab fa-dyalog"></i></a></li>
+                    <li><a href="./about.html">ABOUT US</a></li>
+                    <li><a href="#">WORKS</a></li>
+                    <li><a href="#">CULTURE</a></li>
+                    <li><a href="#">TOPICS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header" id="section1">
             <div class="header__left">
-                <img src="./img/PC/site-logo.jpg" alt="logo" class="header__logo">
                 <div class="header__container">
                     <h4 class="header__top">
                         デザインで人を笑顔にする会社
@@ -35,13 +53,12 @@
             </div>
 
             <div class="header__right">
-                <nav class="header__menu">
-                    <span class="header__icon fas fa-bars"></span>MENU
-                </nav>
+
             </div>
         </div>
 
-        <div class="main">
+
+        <div class="main" id="section2">
 
             <div class="about">
                 <section class="about__container">
@@ -54,7 +71,7 @@
                         笑顔には世界を変える力がある。デザインには人を幸せにする力がある。<br>毎日に幸せを感じて生きていきたい。<br>
                         DIGSMILEの社名にはそんな想いが込められています。
                     </p>
-                    <a href="#" class="btn">READ MORE</a>
+                    <a href="./about.html" class="btn">READ MORE</a>
                 </section>
             </div>
 
@@ -90,7 +107,7 @@
 
 
 
-        <div class="topic">
+        <div class="topic" id="section3">
             <div class="topic__left">
                 <h2>LATEST TOPICS</h2>
             </div>
@@ -131,7 +148,7 @@
 
         </div>
 
-        <section>
+        <section id="section4">
             <div class="contact">
                 <div class="contact__left">
                     <h2 class="contact__top">CONTACT</h2>
@@ -140,7 +157,7 @@
                         コンタクトページから承っております。<br>
                         まずはお気軽にご連絡ください。担当者から改めて返信いたします。
                     </p>
-                    <a href="#" class="contact__btn">READ MORE</a>
+                    <a href="./contact.html" class="contact__btn">READ MORE</a>
                 </div>
                 <div class="contact__right">
                     <img src="./img/PC/recruit-img.jpg" alt="recruit">
@@ -153,5 +170,50 @@
 
     </div>
 </body>
+<script>
+
+    $('.header__menu').on('click', function () {
+        $('body').toggleClass('open');
+        $(".header__logo").css("background", "")
+    });
+    $(".header__logo").click(function () {
+
+        window.location.href = './index.html';
+
+    });
+
+    $(window).scroll(function () {
+
+        var timing = 100;
+        var timing2 = 200;
+
+        var scrollmenu = $(".header__menu").offset().top;
+
+        var scrolllogo = $(".header__logo").offset().top;
+
+        var trigger1Y = $('#section1').offset().top; // ウィンドウ上からの要素の位置
+        var trigger2Y = $('#section2').offset().top;
+        var trigger3Y = $('#section3').offset().top;
+        var trigger4Y = $('#section4').offset().top;
+
+        // 白背景の時はbodyの.bg-is-blackを削除
+        // 黒背景の時はbodyに.bt-is-blackを付与
+        if (scrollmenu + timing >= trigger2Y) {
+            $(".header__menu").removeClass('white');
+            $("span").css('background', "black");
+        } else {
+            $(".header__menu").addClass('white');
+            $("span").css('background', "white");
+        }
+
+        // 白背景の時はbodyの.bg-is-blackを削除
+        // 黒背景の時はbodyに.bt-is-blackを付与
+        if (scrolllogo + timing2 >= trigger2Y) {
+            $(".header__logo").css({ "background": "black" })
+        } else {
+            $(".header__logo").css("background", "")
+        }
+    });
+</script>
 
 </html>

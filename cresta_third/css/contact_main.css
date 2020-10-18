@@ -1,0 +1,83 @@
+.main {
+  margin: 120px auto;
+}
+
+.contactform {
+  width: 700px;
+}
+
+.contactform p {
+  font-family: Noto Sans JP;
+  font-size: 16px;
+  letter-spacing: -1px;
+  margin-bottom: 52px;
+}
+
+.contactform .logo {
+  margin-left: 20px;
+  font-size: 12px;
+  font-family: Noto Sans JP Bold;
+  background-color: #333333;
+  color: white;
+}
+
+.contactform input[type=radio] {
+  margin: 0 20px;
+}
+
+.contactform input[type=text] {
+  margin: 10px 0;
+  width: 700px;
+  height: 41px;
+  font-size: 18px;
+}
+
+.contactform input[type=text]:focus {
+  -webkit-box-shadow: 0 0 5px 0 #ff9900;
+          box-shadow: 0 0 5px 0 #ff9900;
+  border: 2px solid #FFF !important;
+  outline: 0;
+}
+
+.contactform textarea {
+  width: 700px;
+  height: 212px;
+  resize: none;
+  font-size: 18px;
+}
+
+.contactform b {
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+.contactform textarea#policy {
+  width: 700px;
+  height: 252px;
+  resize: none;
+  font-size: 18px;
+}
+
+.contactform .contact input[type=submit] {
+  display: inherit;
+  margin: 41px auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+  font-family: Montserrat Medium;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 9px 48px 11px 41px;
+}
+
+.contactform .contact input[type=submit]:hover {
+  opacity: 0.5;
+}
+
+.contactform .contact__check {
+  text-align: center;
+  margin-top: 41px;
+  font-family: Noto Sans JP;
+}
+/*# sourceMappingURL=contact_main.css.map */
