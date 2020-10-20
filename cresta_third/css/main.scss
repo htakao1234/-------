@@ -71,7 +71,10 @@
             font-family: Montserrat;
             font-size:32px;
             }
-
+            &__img{
+                width:520px;
+                height:350px;
+            }
             &__main{
                 font-family: YuGothic;
                 margin:27px 0 17px 0;
@@ -97,7 +100,10 @@
             font-family: Montserrat;
             font-size:32px;
             }
-
+            &__img{
+                width:520px;
+                height:350px;
+            }
             &__main{
                 font-family: YuGothic;
                 margin:27px 0 17px 0;
@@ -183,6 +189,11 @@
             padding-top:60px;
             flex-basis: 530px;
 
+        }
+
+        &__img{
+            width:580px;
+            height:390px;
         }
         &__top{
             margin-top:60px;
@@ -291,7 +302,10 @@
             font-family: Montserrat;
             font-size:32px;
             }
-
+            &__img{
+                width:520px;
+                height:350px;
+            }
             &__main{
                 font-size:16px;
                 font-family: YuGothic;
@@ -319,7 +333,10 @@
             font-family: Montserrat;
             font-size:32px;
             }
-
+            &__img{
+                width:520px;
+                height:350px;
+            }
             &__main{
                 font-size:16px;
                 font-family: YuGothic;
@@ -397,6 +414,10 @@
         &__left{
             width: 530px;
             margin:30px 0 0 30px;
+        }
+        &__img{
+            width:520px;
+            height:350px;
         }
         &__top{
             margin-top:45px;
