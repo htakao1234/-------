@@ -1,115 +1,288 @@
-.main {
-  margin-top: 120px;
-  height: 2600px;
+@media screen and (min-width: 1440px) {
+  .main {
+    margin-top: 120px;
+    height: 2600px;
+  }
+  .vision {
+    margin-bottom: 120px;
+    margin-left: 396px;
+  }
+  .vision__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .vision__column {
+    font-family: YuGothic;
+    font-size: 24px;
+    margin-bottom: 27px;
+  }
+  .vision__contents {
+    font-family: Noto Sans JP Bold;
+    font-size: 16px;
+    line-height: initial;
+  }
+  .container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    margin-bottom: 120px;
+    position: relative;
+  }
+  .container__left {
+    z-index: 2;
+    width: 420px;
+    height: 282.45px;
+    left: 170px;
+    position: absolute;
+    background-image: url("../img/PC/ceo-img.jpg");
+    background-repeat: no-repeat;
+  }
+  .container__right {
+    z-index: 1;
+    width: 770px;
+    height: 756px;
+    top: 144px;
+    left: 500px;
+    position: absolute;
+    background-image: url("../img/PC/bg_gray.jpg");
+  }
+  .container__block {
+    width: 400px;
+    height: 546px;
+    margin-top: 120px;
+  }
+  .container__block__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .container__block__main {
+    font-family: Noto Sans JP Bold;
+    font-size: 16px;
+    line-height: initial;
+  }
+  .company {
+    width: 1100px;
+  }
+  .company__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    border-bottom: 2px solid;
+    border-color: #DDDDDD;
+    padding-bottom: 30px;
+  }
+  .company table {
+    width: 800px;
+    margin-right: 0;
+    line-height: 56px;
+    margin-bottom: 30px;
+  }
+  .company table tr {
+    border-bottom: 2px solid;
+    border-color: #DDDDDD;
+    padding-bottom: 30px;
+  }
+  .company table th {
+    text-align: left;
+    font-weight: bold;
+    width: 150px;
+  }
+  .company__map {
+    width: 1100px;
+    height: 360px;
+  }
 }
 
-.vision {
-  margin-bottom: 120px;
-  margin-left: 396px;
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .main {
+    margin-top: 80px;
+    height: 2361px;
+  }
+  .vision {
+    margin-bottom: 120px;
+    margin-left: 150px;
+  }
+  .vision__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .vision__column {
+    font-family: YuGothic;
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .vision__contents {
+    font-family: Noto Sans JP Bold;
+    font-size: 16px;
+    line-height: initial;
+  }
+  .container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    position: relative;
+  }
+  .container__left {
+    z-index: 2;
+    width: 320px;
+    height: 216px;
+    left: 30px;
+    position: absolute;
+    background-image: url("../img/PC/ceo-img.jpg");
+    background-repeat: no-repeat;
+  }
+  .container__right {
+    z-index: 1;
+    width: 494px;
+    height: 687px;
+    top: 131px;
+    left: 244px;
+    position: absolute;
+    background-image: url("../img/PC/bg_gray.jpg");
+  }
+  .container__block {
+    width: 400px;
+    height: 546px;
+    margin-top: 120px;
+  }
+  .container__block__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  .container__block__main {
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    line-height: initial;
+  }
+  .company {
+    width: 708px;
+  }
+  .company__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    border-bottom: 2px solid;
+    border-color: #DDDDDD;
+    padding-bottom: 30px;
+  }
+  .company table {
+    width: 708px;
+    margin-right: 0;
+    line-height: 56px;
+    margin-bottom: 30px;
+  }
+  .company table tr {
+    border-bottom: 2px solid;
+    border-color: #DDDDDD;
+    padding-bottom: 30px;
+  }
+  .company table th {
+    text-align: left;
+    font-weight: bold;
+    width: 150px;
+  }
+  .company iframe {
+    width: 708px;
+    height: 230px;
+  }
 }
 
-.vision__top {
-  font-family: Montserrat;
-  font-size: 32px;
-  margin-bottom: 25px;
+@media screen and (max-width: 768px) {
+  .main {
+    margin-top: 80px;
+    height: 2600px;
+  }
+  .vision {
+    margin-bottom: 80px;
+    margin-left: 15px;
+  }
+  .vision__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .vision__column {
+    font-family: YuGothic;
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+  .vision__contents {
+    font-family: Noto Sans JP Bold;
+    font-size: 14px;
+    line-height: initial;
+  }
+  .container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+  }
+  .container__left {
+    z-index: 2;
+    width: 340px;
+    height: 230px;
+    left: 0px;
+    position: absolute;
+    background-image: url("../img/PC/ceo-img.jpg");
+    background-repeat: no-repeat;
+  }
+  .container__right {
+    z-index: 1;
+    width: 345px;
+    height: 799px;
+    top: 129px;
+    left: 15px;
+    position: absolute;
+    background-image: url("../img/PC/bg_gray.jpg");
+  }
+  .container__block {
+    width: 288px;
+    height: 525px;
+    margin-top: 120px;
+  }
+  .container__block__top {
+    font-family: Montserrat;
+    font-size: 31px;
+    margin-bottom: 30px;
+  }
+  .container__block__main {
+    font-family: Noto Sans JP;
+    font-size: 14px;
+    line-height: initial;
+  }
+  .company {
+    width: 345px;
+  }
+  .company__top {
+    font-family: Montserrat;
+    font-size: 32px;
+    border-bottom: 2px solid;
+    border-color: #DDDDDD;
+    padding-bottom: 30px;
+  }
+  .company table {
+    width: 345px;
+    margin-right: 0;
+    line-height: 56px;
+    margin-bottom: 30px;
+  }
+  .company table tr {
+    border-bottom: 2px solid;
+    border-color: #DDDDDD;
+    padding-bottom: 30px;
+  }
+  .company table th {
+    text-align: left;
+    font-weight: bold;
+    width: 150px;
+  }
+  .company iframe {
+    width: 345px;
+    height: 470px;
+  }
 }
-
-.vision__column {
-  font-family: YuGothic;
-  font-size: 24px;
-  margin-bottom: 27px;
-}
-
-.vision__contents {
-  font-family: Noto Sans JP Bold;
-  font-size: 16px;
-  line-height: initial;
-}
-
-.container {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
-  height: 900px;
-  margin-bottom: 120px;
-  position: relative;
-}
-
-.container__left {
-  z-index: 2;
-  width: 420px;
-  height: 282.45px;
-  left: 170px;
-  position: absolute;
-  background-image: url("../img/PC/ceo-img.jpg");
-  background-repeat: no-repeat;
-}
-
-.container__right {
-  z-index: 1;
-  width: 770px;
-  height: 756px;
-  top: 144px;
-  left: 500px;
-  position: absolute;
-  background-image: url("../img/PC/bg_gray.jpg");
-}
-
-.container__block {
-  width: 400px;
-  height: 546px;
-  margin-top: 120px;
-}
-
-.container__block__top {
-  font-family: Montserrat;
-  font-size: 32px;
-  margin-bottom: 30px;
-}
-
-.container__block__main {
-  font-family: Noto Sans JP Bold;
-  font-size: 16px;
-  line-height: initial;
-}
-
-.company {
-  width: 1100px;
-}
-
-.company__top {
-  font-family: Montserrat;
-  font-size: 32px;
-  border-bottom: 2px solid;
-  border-color: #DDDDDD;
-  padding-bottom: 30px;
-}
-
-.company table {
-  width: 800px;
-  margin-right: 0;
-  line-height: 56px;
-  margin-bottom: 30px;
-}
-
-.company table tr {
-  border-bottom: 2px solid;
-  border-color: #DDDDDD;
-  padding-bottom: 30px;
-}
-
-.company table th {
-  text-align: left;
-  font-weight: bold;
-  width: 150px;
-}
-
-.company__map {
-  width: 1100px;
-  height: 360px;
-}
-/*# sourceMappingURL=about_main.css.map */

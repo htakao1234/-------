@@ -1,3 +1,5 @@
+@media screen and (min-width: 1440px) {
+
 .header{
     display: inline-flex;
     justify-content: center;
@@ -29,6 +31,7 @@
         cursor: pointer;
         position: fixed;
         z-index:1000;
+        width:260px;
     }
     &__container{
         position: absolute;
@@ -98,7 +101,232 @@
     }
 }
 
+.white{
+    color:white;
+}
+
+}
+
+@media screen and (min-width:768px) and ( max-width:1440px) {
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    width:100%;
+    height: 615px;
+    position: relative;
+    &__left{
+        z-index: 2;
+        position: absolute;
+        left:0px;
+        height:529px;
+        width:587px;
+        margin:0;
+        background-image: url("../img/PAD/heading-img.jpg");
+        background-repeat: no-repeat;
+    }
+
+    &__right{
+        z-index: 1;
+        position: absolute;
+        width:406px;
+        right:0px;
+        height:615px;
+        background-image: url("../img/PC/bg_kv.jpg");
+        background-repeat: no-repeat;
+    }
+    &__logo{
+         margin:29.8px 0 0 30px;
+        cursor: pointer;
+        position: fixed;
+        z-index:1000;
+        width:189px;
+    }
+    &__container{
+        position: absolute;
+        left: 358px;
+        top: 220px;
+        z-index: 4;
+        width: 312px;
+        height:91px;
+    }
+    &__company{
+        font-family: YuGothic;
+        font-size: 20px;
+        line-height:25px;
+        color: white;
+    }
+    &__top{
+        font-family: YuGothic;
+        font-size: 16px;
+        line-height:25px;
+        color: white;
+    }
+    &__main{
+
+        z-index: 5;
+        font-size:52px;
+        font-family: Montserrat;
+        line-height: 86px;
+        color: white;
+    }
+    &__icon{
+        margin-right:7px;
+    }
+     &__menu{
+        margin:33px 0 0 677px;
+        z-index:1000;
+        position: fixed;
+        font-family: Montserrat;
+        font-size: 15px;
+        transition: all .3s ease 0s;
+        cursor:pointer;
+
+        span{
+            width: 30%;
+            height: 1px;
+            left: -20px;
+            display: block;
+            background:white;
+            position: absolute;
+            transition: transform .6s ease-in-out, top .5s ease;
+
+            &:nth-child(1) {
+            top: 1px;
+            }
+            &:nth-child(2) {
+            top: 6px;
+            }
+            &:nth-child(3) {
+            top: 11px;
+            }
+
+        }
+    }
+
+    &__menu:hover {
+        cursor: pointer;
+        transform: scale(1.3);
+    }
+}
+
 
 .white{
     color:white;
+}
+
+}
+
+@media screen and ( max-width:768px) {
+
+.header{
+    display: inline-flex;
+    justify-content: center;
+    width:100%;
+    height: 449px;
+    position: relative;
+    &__left{
+        z-index: 2;
+        position: absolute;
+        left:0px;
+        height:387px;
+        width:287px;
+        margin:0;
+        background-image: url("../img/PAD/heading-img.jpg");
+        background-repeat: no-repeat;
+
+    }
+
+    &__right{
+        z-index: 1;
+        position: absolute;
+        width:198px;
+        right:0px;
+        height:449px;
+        background-image: url("../img/SP/bg_kv.jpg");
+        background-repeat: no-repeat;
+  
+    }
+    &__logo{
+        margin:19.8px 0 0 15px;
+        cursor: pointer;
+        position: fixed;
+        z-index:1000;
+        width:189px;
+    }
+    &__container{
+        position: absolute;
+        left: 57px;
+        top: 149px;
+        z-index: 4;
+        width: 289px;
+        height:91px;
+        
+    }
+    &__company{
+        font-family: YuGothic;
+        font-size: 20px;
+        line-height:25px;
+        color: white;
+
+    }
+    &__top{
+        font-family: YuGothic;
+        font-size: 16px;
+        line-height:25px;
+        color: white;
+    }
+    &__main{
+
+        z-index: 5;
+        font-size:52px;
+        font-family: Montserrat;
+        line-height: 86px;
+        color: white;
+    }
+    &__icon{
+        margin-right:7px;
+    }
+     &__menu{
+        margin:24px 0 0 299px;
+        z-index:1000;
+        position: fixed;
+        font-family: Montserrat;
+        font-size: 15px;
+        transition: all .3s ease 0s;
+        cursor:pointer;
+
+        span{
+            width: 30%;
+            height: 1px;
+            left: -20px;
+            display: block;
+            background:white;
+            position: absolute;
+            transition: transform .6s ease-in-out, top .5s ease;
+
+            &:nth-child(1) {
+            top: 1px;
+            }
+            &:nth-child(2) {
+            top: 6px;
+            }
+            &:nth-child(3) {
+            top: 11px;
+            }
+
+        }
+    }
+
+    &__menu:hover {
+        cursor: pointer;
+        transform: scale(1.3);
+    }
+}
+
+
+.white{
+    color:white;
+}
+
 }

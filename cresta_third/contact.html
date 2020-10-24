@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="./css/footer.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
         integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>ポートフォリオ</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <img src="./img/PC/site-logo.jpg" alt="logo" class="header__logo">
+        <img srcset="./img/PC/site-logo.jpg 1440w,./img/PAD/site-logo.jpg 768w" class="header__logo">
         <nav class="header__menu white">
             <p><span class="backwhite"></span><span class="backwhite"></span><span class="backwhite"></span>MENU</p>
         </nav>
@@ -58,10 +57,11 @@
                     送付いただいた内容を確認の上、担当者からご連絡させていただきます。</p>
                 <form action="#" class="contact">
                     お問い合わせ種別 <span class="logo">必須</span><br><br>
-                    <input type="radio" name="trigger" value="#" checked>制作依頼&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="trigger" value="#">採用&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="trigger" value="#">IR&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="trigger" value="#">その他
+                    <div class="radio"><input type="radio" name="trigger" value="#" checked>制作依頼&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+                    <div class="radio"><input type="radio" name="trigger" value="#">採用&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="radio"><input type="radio" name="trigger" value="#">IR&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="radio"><input type="radio" name="trigger" value="#">その他</div>
                     <br><br><br><br>
                     会社名・団体名
                     <input type="text" name="#" id="#">
@@ -113,6 +113,7 @@
         </footer>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
 <script>
     $('.header__menu').on('click', function () {
